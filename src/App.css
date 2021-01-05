@@ -7,6 +7,51 @@
   pointer-events: none;
 }
 
+.App .nav {
+  position: relative;
+  background:#363c3d;
+  padding: 20px 0;
+}
+
+h1{
+  text-align: left;
+  padding-left:15px
+}
+
+h1 a{
+  color:#fff;
+  font-size:24px;
+  font-weight:normal;
+  text-decoration: none;
+}
+
+.btn-menu{
+  position: absolute;
+  right:15px;
+  top:30px
+}
+
+.list{
+  margin-top:15px;
+  text-align: left;
+  padding:0 15px;
+  box-sizing: border-box;
+}
+
+.list.first{
+  margin-top:30px
+}
+
+.list strong{
+  font-size:18px;
+  color:#222
+}
+
+.list p{
+  color:#777;
+  margin-top:8px
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
