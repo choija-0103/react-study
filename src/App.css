@@ -52,6 +52,36 @@ h1 a{
   margin-top:8px
 }
 
+.modal{
+  padding:30px;
+  background:#eee;
+}
+
+.menu{
+  position: absolute;
+  background:#eee;
+  width:100%;
+  padding: 70px 0;
+  box-sizing: border-box;
+}
+
+.menu ul li a{
+  font-size:28px
+}
+.menu ul li + li{
+  margin-top:30px
+}
+
+.menu-close{
+  position: absolute;
+  top:20px;
+  right:20px;
+  background-color: #fff;
+  border:none;
+  width:30px;
+  height:30px
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
